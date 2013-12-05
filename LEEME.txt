@@ -1,0 +1,46 @@
+PROYECTO PILAS SARTORE
+JUEGO: BILL GATES VS THE WORLD
+
+Alumno y Creador: Renzo Sartore
+
+Objetivo del Jugeo:
+-El objetivo del juego es hacer que Bill Gates (Pingu) destruya a los pinüinos de Linux (bombas) para que estos no toquen el codigo de windows (cajas).
+-El juego se va tornando mas dificil segun el tiempo trascurrido, asi los pingüinos bajando de manera más rápida.
+-No puedes ganar, simplemente conseguir más puntos interactuando con el dinero (bananas).
+-A los 20 puntos ganas 1 vida
+-Empiezas con 3 vidas
+-Tenes un limite de vias, MAX 5!
+-Sin te quedas sin vidas pierdes
+
+
+Controles
+-Felchas direccionales, mueves a Bill Gates
+-Arriba, salta Bill
+-q (si o si minuscula) vuelves al menu principal
+-r (si o si minuscula) reinicia el juego
+*****Por cualquier otra duda consultar con la seccion "Ayuda" dentro del juego.
+
+En esta cartpeta se encuentra el juego terminado con los siguientes arhivos:
+
+-Grillas:
+
+"pinu.png": Estado normal del actor
+"pingu2.png": Reaccion del actor al intractuar con un pinüino de Linux (bomba)
+"pingu3.png": Reaccion del actor al interactuar con dinero ( banana) 
+"bomba.png": convierte el modelo normal de la bomba en un pingüino de Linux
+"banana.png": convierte el modelo normal de la banana en dinero
+
+-Fondos:
+"menu.jpg": Fondo del menu del juego
+"fondo.jpg": Fondo de la ecsena principal del juego
+"ayuda.jpg": Fondo de la ecsena de ayuda del juego
+
+-Musica:
+"musica.mp3": Musica del fondo del juego
+
+-Archivos.py:
+"bananita.py": Toda la clase modificada por mi de las banana normal
+"bomba.py": Toda la clase modificada por mi de las bomba normal 
+"cajita.py": Toda la clase modificada por mi de las cajas normales
+"Jugeo.py": Codigo principal del juego. En este se importan todos los archivos 
+nombrados anteriormente  
